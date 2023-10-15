@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <link rel="icon" href="images/logo/logo.png" >
+  <link rel="stylesheet" href="css/animate.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.clou0dflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="nav.css">
+  <link rel="stylesheet" href="home.css">
+</head>
+
+<style>
+ .ftr-main{
+  background-image: linear-gradient(60deg,#3120E0,#00D7FF),
+  linear-gradient(120deg,#3120E0,#0096FF);
+  border: 2px solid #3120E0;
+  /* border-radius: 5px; */
+  border: double 3px transparent;
+  background-origin: border-box;
+ background-clip:border-box;
+  height: 300px;
+ }
+ .a{
+  /* background-color: blue; */
+
+ }
+ .ftr-list{
+  background-color: transparent;
+ }
+ .ftr-main .ftr-list li{
+
+  border: double 3px transparent;
+  /* background-color: linear-gradient(60deg,#3B9AE1,#00D7FF); */
+  background-image: linear-gradient(60deg,#3120E0,#00D7FF),
+  linear-gradient(60deg,#3120E0,#0096FF);
+  /* background-color: linear-gradient(); */
+  background-origin: padding-box;
+ background-clip: border-box;
+ }
+ .ftr-main .ftr-list li a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+ }
+</style>
+<body>
+  <!-- header start -->
+  <header class="container-fluid-lg">
+    <nav class="navbar navbar-expand-md navbar-light mynav" >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="images/logo/logo1.png" alt="logo" width="70px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto navi">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="services_dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">services</a>
+              <ul class="dropdown-menu" aria-labelledby="services_dropdown">
+                <li><a class="dropdown-item" href="#">Gerenal OPD</a></li>
+                <li><a class="dropdown-item" href="#">Health Checkup</a></li>
+                <li><a class="dropdown-item" href="#">Special OPD</a></li>
+                <li><a class="dropdown-item" href="#">Operations</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Facility</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Departments
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">HelpDesk</a></li>
+                <li><a class="dropdown-item" href="#">Appointment</a></li>
+                <li><a class="dropdown-item" href="#">Schedule</a></li>
+                <li><a class="dropdown-item" href="#">Billing</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="centers" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Centers
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="centers">
+                <li><a class="dropdown-item" href="#">Diagnostic </a></li>
+                <li><a class="dropdown-item" href="#">Cancer</a></li>
+                <li><a class="dropdown-item" href="#">NICVID</a></li>
+                <li><a class="dropdown-item" href="#">Laboratory</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link "  href="about.html">About US </a>
+              <li class="nav-item">
+                <a class="nav-link " href="#">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "  href="#">FAQs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "  href="#">Achievements</a>
+              </li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+    <!-- header end -->
+<!-- Slide Section Start -->
+   
+    <div class="container-sm s-con">
+
+
+<div id="dot-slider" class="carousel" data-bs-ride="carousel">
+  
+  <section class="container-fluid ">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="row my-4" >
+          <div class="col-11 mx-auto" id="offers">
+            <div class="row gy-2 slide">
+              <div class="col-12 col-md-6 content">
+               
+                <h3>cambridge hospital</h3>
+                <p>
+                  we provide best services to our customer & bour motive is to promote humanity by saving human life.
+                </p>
+              </div>
+              <div class="col-12 col-md-6 image">
+                <img src="images/heart/h1.png" id="heart" height="20px" alt="heart">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+   
+    </div>
+  </section>
+  </div>
+</div>
+<!-- Slider Section End -->
+<!-- founder details start -->
+<section >
+  <div class="container-md f-con">
+  <div class="row ">
+    <h1 class="text-center">CHA Founder</h1>
+    <div class="col-lg-4 col-md-3 col-sm-12" id="card1">
+<div class="card p_img mx-auto ">
+
+</div>
+<div class="p-ftr">
+  <h3 class="text-center ">Dr:Richard Dawkins</h3>
+<p class="text-center ">A Founder of CHA</p>
+</div>
+    </div>
+    <div class="col-lg-8 col-md-9 col-sm-12" id="card2">
+      <div class="card text-dark text-justify  mt-5 h-para" >
+        <div class="card-body">
+          <h5 class="card-title">HISTORY OF CHA</h5>
+          <p class="card-text ">
+            <span>Cambridge Health Alliance (CHA)</span> is a healthcare provider in Cambridge,
+   <span>richard dawkins</span> was the founder of CHA.
+  Cambridge Health Alliance (CHA) was created in <span>1996 </span> when the city-owned 
+  Cambridge Hospital merged with private, nonprofit Somerville Hospital. 
+  In <span>2001</span> , Hallmark Health sold the Whidden Hospital to Cambridge Health Alliance. 
+  In <span>2016</span> , the name of Whidden Hospital was changed to CHA Everett Hospital.
+   In <span>2020</span> , the emergency department at Somerville Hospital became an Urgent 
+   Care Center and the name was changed to CHA Somerville Campus. 
+   The three hospitals were originally founded around the 
+   turn of the <span>20th century</span>.
+          </p>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+  </div>
+</section>
+<!-- founder details end -->
+ <!-- achivevment start -->
+<section>
+  <div class="container-md ac-sec my-auto">
+    <h1 class="text-center">FrontLine Managment</h1>
+    <!-- modal -->
+    <div class="modal fade modal-dialog modal-dialog-scrollable " id="mymodal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog  ">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body ">
+            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur magnam sint distinctio repudiandae provident officia, ullam voluptas accusamus eius eos maiores quisquam suscipit accusantium inventore ducimus quod laborum? Velit nisi facilis quaerat corporis aspernatur labore ut! Dolor mollitia magnam fuga nemo neque alias nihil, iste, animi, earum placeat atque expedita nulla! Cum, voluptate? Quas minus molestias voluptatibus rerum ratione reprehenderit numquam enim, tempora quos ullam dolorem velit voluptatem pariatur quod sint perferendis ipsam architecto quisquam iste natus repellendus placeat sed praesentium? Officia incidunt ullam eligendi labore in consequuntur aliquam debitis qui fuga, odit ipsa corporis quod aut quaerat doloremque consequatur laudantium impedit eaque magni ut iusto. Sunt, totam officia qui a natus non ab necessitatibus fugit voluptate assumenda cupiditate inventore impedit esse sapiente fugiat, reprehenderit vero quae? Earum culpa reiciendis ea voluptatibus dignissimos inventore ab eos temporibus quia, voluptatum, iste, id impedit laboriosam quidem illum similique? Nostrum temporibus eaque praesentium odit ullam molestiae officiis animi in, iure quaerat repellat laborum voluptatum perferendis, ab doloremque impedit quisquam! Nobis minima cumque veritatis quos ullam iusto dolores. Mollitia libero tenetur laudantium aliquid doloribus provident omnis quia, saepe quidem necessitatibus, nemo neque, at cum ad similique reiciendis! Fugit, ipsum repellat quam dolore consequatur modi voluptatibus sint voluptatum ad animi voluptas cumque vel, facere consequuntur aspernatur repellendus aliquam sequi veniam inventore similique iusto ipsam perferendis iure doloribus. Enim, sit ut. Quis recusandae ex omnis vero illo tempore ullam optio. Voluptate aperiam qui officia consectetur illo ex ducimus magnam itaque aut quibusdam alias consequatur illum, beatae recusandae debitis non dicta incidunt provident perspiciatis optio facere aspernatur? Animi fuga architecto totam, minus cum consequuntur reiciendis, corrupti ad vitae deserunt beatae in itaque voluptatem enim, officia suscipit pariatur autem! Eveniet rerum sit tempore ducimus iusto fugit porro esse id quis autem, sunt voluptatum totam labore a repellat quisquam sapiente numquam repellendus voluptatem hic dicta perspiciatis sint blanditiis necessitatibus. Dolor rem quos, et amet at cum similique rerum pariatur libero iusto adipisci doloribus, necessitatibus consequatur, distinctio tenetur totam. Fugiat harum omnis asperiores vitae tempore. Qui eveniet iure natus quae, in voluptatem dolores aspernatur quia placeat nobis quasi totam dolorum quod fuga, quam neque ex ab molestias iusto? Ea id facilis ipsam optio voluptatibus in iure ut accusamus nobis reiciendis autem magni modi libero corrupti similique reprehenderit, laboriosam rerum sunt quam vel ullam nulla nihil? Saepe quasi atque deserunt reiciendis amet pariatur quisquam maiores dignissimos, impedit in perspiciatis, aspernatur repellat.</p> -->
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Understood</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal  -->
+    <!-- covid 19 -->
+    <div class="row mt-3">
+      <h2 class="text-center text2">COVID-19 </h2>
+      <div class="col-lg-3 col-md-4 col-sm-12 mb-3 cover">
+       
+  
+      
+      <div class="card covid-card" 
+      >
+        <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#mymodal" src="images/corona/covid0.webp" alt="">
+      </div>
+     
+   
+       
+    
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-12 mb-3 cover">
+        <div class="card covid-card">
+          <img class="img-fluid" src="images/corona/covid5.jpg" alt="">
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-12 mb-3 cover">
+        <div class="card covid-card">
+          <img class="img-fluid" src="images/corona/covid4.jpg" alt="">
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-12 mb-3 cover">
+        <div class="card covid-card">
+          <img class="img-fluid" src="images/corona/covid12.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- covid 19 -->
+    <!-- Modal -->
+
+    <!-- flood disaster -->
+    <div class="row   mt-3">
+      <h2 class="text-center text2">Natural Disaster</h2>
+      <div class="col-lg-3 col-md-4 col-sm-12 mb-3 cover">
+        <div class="card covid-card ">
+          <img class="img-fluid" src="images/flood/fld13.avif" alt="">
+        </div>
+        
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-12 mb-3 cover">
+        <div class="card covid-card">
+          <img class="img-fluid" src="images/flood/fld12.jpeg" alt="">
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-12 mb-3 cover">
+        <div class="card covid-card">
+          <img class="img-fluid" src="images/flood/fld4.jpg" alt="">
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-12 mb-3 cover">
+        <div class="card covid-card">
+          <img class="img-fluid" src="images/flood/fld11.jpeg" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- flood disaster -->
+  </div>
+</section>
+ <!-- achivevment end -->
+ <!--footer start  -->
+ <footer class="container-fluid ftr-main">
+<div class="row mt-3 a">
+  <div class="col-lg-4 col-md-4 col-sm-12 mt-3 mx-3">
+    <ul class="list-group ftr-list">
+      <li class="list-group-item"><a href="">home</a></li>
+      <li class="list-group-item"> 
+        <a href="">facilities</a>
+      </li>
+      <li class="list-group-item">
+        <a href="">about us</a>
+      </li>
+      <li class="list-group-item">
+        <a href="">contact us </a>
+      </li>
+      <li class="list-group-item">
+        <a href="">achievements</a>
+      </li>
+      <li class="list-group-item">
+        <a href="">queries</a>
+      </li>
+    </ul>
+  </div>
+  <div class="col-lg-4 col-md-4 col-sm-12">
+    
+  </div>
+</div>
+ </footer>
+ <!-- footer end -->
+
+
+    <script>
+      $(document).ready(function(){
+      //  var heart=$("#heart").css("height","20px");
+      //  if(heart=="200px"){
+      //   $("#heart").addClass('animate__animated animate__rotateIn')
+      //  }
+       $(window).scroll(function()
+       {
+        var pos_card = $(document).scrollTop();
+        if(pos_card > 0 && pos_card < 210){
+          $("#card1").addClass("animate__animated animate__slideInLeft");
+          $("#card2").addClass("animate__animated animate__slideInRight");
+        }
+       })
+      })
+    </script>
+   <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script> -->
+   <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
